@@ -1,0 +1,27 @@
+{
+  "name": "notepad",
+  "version": "0.0.0",
+  "description": "Notetaking app",
+  "main": "index.js",
+  "author": "Geoff Davis",
+  "license": "MIT",
+  "scripts": {
+    "server": "node server.js",
+    "sass": "sass --watch source/sass/main.sass:assets/css/main.css"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "^1.1.3",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.1",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1"
+  }
+}
